@@ -15,6 +15,11 @@ public class Main {
 //        System.out.println(array.toString()); // override? hashcode not working
 
         System.out.println(toList(array));
+//        Task 3 Apples to Oranges:
+
+
+
+
     }
 
     private static int[] swap(int[] Array, int i1, int i2) {
