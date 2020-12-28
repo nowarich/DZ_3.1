@@ -1,9 +1,18 @@
 package ru.geekbains.DZ;
 
-public class Fruit {
-    private String name;
+public abstract class Fruit {
+//    private String name;
+    private float weight;
 
-    public String getName() {
-        return name;
+    public Fruit(float weight) {
+        this.weight = weight;
     }
+
+    public float getWeight() {
+        return weight;
+    }
+//
+//    public String getName() {
+//        return name;
+//    }
 }
